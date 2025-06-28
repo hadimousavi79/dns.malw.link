@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  dns:
+    image: powerdns/dnsdist-19:latest
+    container_name: dnsdist
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      # - "853:853/tcp" # DNS over TLS
+      # - "443:443/tcp" # DNS over HTTPS
+    volumes:
+      - ./dnsdist.conf:/etc/dnsdist/dnsdist.conf:ro
+      - ./proxy.txt:/etc/dnsdist/proxy.txt:ro
+      - ./garbage.txt:/etc/dnsdist/garbage.txt:ro
+      - ./hosts.txt:/etc/dnsdist/hosts.txt:ro
+      # - ./certs:/etc/dnsdist/certs:ro
+    restart: unless-stopped
+    networks:
+      - dns
+
+networks:
+  dns:
+    driver: bridge
