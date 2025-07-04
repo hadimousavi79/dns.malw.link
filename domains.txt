@@ -8,7 +8,6 @@ api.github.com
 api.imgur.com
 assistant-s3-pa.googleapis.com
 builds.parsec.app
-claude.ai
 console.anthropic.com
 copilot.microsoft.com
 datalore.jetbrains.com
@@ -35,8 +34,6 @@ usher.ttvnw.net
 web.archive.org
 webchannel-alkalimakersuite-pa.clients6.google.com
 www.dell.com
-www.dyson.com
-www.dyson.fr
 www.intel.com
 www.tiktok.com
 xgpuweb.gssv-play-prod.xboxlive.com
