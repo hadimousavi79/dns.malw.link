@@ -26,3 +26,8 @@ weather.com
 wikidot.com
 x.ai
 pixabay.com
+manus.im
+augmentcode.com
+mongodb.com
+hybrid-analysis.com
+augmentcode.com
