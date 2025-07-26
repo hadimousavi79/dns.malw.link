@@ -82,4 +82,6 @@ trk.pinterest.com.
 udc.yahoo.com.
 udcm.yahoo.com.
 weather-analytics-events.apple.com.
-webview.unityads.unity3d.com
+webview.unityads.unity3d.com.
+log16-platform-ycru.tiktokv.com.
+amc.yandex.ru.

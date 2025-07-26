@@ -1,7 +1,5 @@
 aisandbox-pa.googleapis.com.
-aistudio.google.com.
 aitestkitchen.withgoogle.com.
-alkalimakersuite-pa.clients6.google.com.
 api.fitbit.com.
 api.github.com.
 api.imgur.com.
@@ -31,7 +29,6 @@ store.supercell.com.
 sydney.bing.com.
 usher.ttvnw.net.
 web.archive.org.
-webchannel-alkalimakersuite-pa.clients6.google.com.
 www.dell.com.
 www.intel.com.
 www.tiktok.com.
