@@ -1,7 +1,7 @@
 3.66.189.153 protonmail.com
 3.66.189.153 mail.proton.me
 52.223.13.41 tracker.openbittorrent.com
-46.226.165.53 test.dns.malw.link
+45.95.233.23 test.dns.malw.link
 108.138.199.10 cdn.id.supercell.com
 3.166.14.19 security.id.supercell.com
 18.66.195.96 game-assets.clashroyaleapp.com
