@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  nginx:
+    build: .
+    container_name: sni_proxy
+    volumes:
+      - ./logs:/var/log/nginx
+    ports:
+      - "443:443"
+    restart: unless-stopped
+    networks:
+      - dns
+
+  dns:
+    image: powerdns/dnsdist-19:latest
+    container_name: dnsdist
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      - "853:853/tcp"
+    volumes:
+      - ./dnsdist.conf:/etc/dnsdist/dnsdist.conf:ro
+      - ./proxy.txt:/etc/dnsdist/proxy.txt:ro
+      - ./proxy_with_subdomains.txt:/etc/dnsdist/proxy_with_subdomains.txt:ro
+      - ./garbage.txt:/etc/dnsdist/garbage.txt:ro
+      - ./hosts.txt:/etc/dnsdist/hosts.txt:ro
+      - ./certs:/etc/dnsdist/certs:ro
+    restart: unless-stopped
+    networks:
+      - dns
+
+networks:
+    dns:
