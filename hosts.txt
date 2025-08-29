@@ -11,6 +11,4 @@
 108.157.194.81 clashofclans.inbox.supercell.com
 179.43.168.109 game.brawlstarsgame.com
 18.239.69.129 game-assets.brawlstarsgame.com
-5.252.32.128 aeza.net
-109.120.149.55 terminator.aeza.net
-5.252.32.128 my.aeza.net
+130.255.77.28 ntc.party
