@@ -16,6 +16,14 @@
 
    > Можете использовать, например, [acme.sh](https://github.com/acmesh-official/acme.sh) для получения сертификатов.
 
+4. В `nginx.conf` поменяйте домен `dns.malw.link` на ваш домен:
+
+   ```conf
+   map $ssl_preread_server_name $allowed_domain {
+      dns.malw.link 2;
+      include /etc/nginx/whitelist_domains.conf;
+   ```
+
 ## Если вам не нужны DNS over HTTPS и DNS over TLS
 
 1. В `docker-compose.yml` закомментируйте строки:
