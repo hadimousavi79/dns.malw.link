@@ -87,3 +87,4 @@ log16-platform-ycru.tiktokv.com.
 amc.yandex.ru.
 tigr1234566.github.io.
 rezvorck.github.io.
+rt.applovin.com.
