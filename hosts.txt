@@ -12,3 +12,4 @@
 179.43.168.109 game.brawlstarsgame.com
 18.239.69.129 game-assets.brawlstarsgame.com
 130.255.77.28 ntc.party
+185.87.51.182 controlplane.tailscale.com
